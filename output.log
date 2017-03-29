@@ -1,0 +1,96 @@
+200
+--------------------------------
+http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34
+--------------------------------
+<RequestsCookieJar[<Cookie PHPSESSID=f6bb958462711ff382f7bfdba5331482 for 10.7.49.47/>]>
+--------------------------------
+{'Content-Length': '2205', 'Content-Encoding': 'gzip', 'Set-Cookie': 'PHPSESSID=f6bb958462711ff382f7bfdba5331482; path=/; HttpOnly', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=99', 'Server': 'Apache/2.4.18 (Ubuntu)', 'Connection': 'Keep-Alive', 'Pragma': 'no-cache', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Date': 'Wed, 29 Mar 2017 13:34:21 GMT', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Type': 'text/html; charset=UTF-8'}
+--------------------------------
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+<script type="text/javascript" src="/simplesamlphp/www/resources/script.js"></script>
+<title>Enter your username and password</title>
+
+	<link rel="stylesheet" type="text/css" href="/simplesamlphp/www/resources/default.css" />
+	<link rel="icon" type="image/icon" href="/simplesamlphp/www/resources/icons/favicon.ico" />
+
+
+	
+	<meta name="robots" content="noindex, nofollow" />
+	
+
+</head>
+<body onload="SimpleSAML_focus('username');">
+
+<div id="wrap">
+	
+	<div id="header">
+		<h1><a style="text-decoration: none; color: white" href="/simplesamlphp/www/">Enter your username and password</a></h1>
+	</div>
+
+	
+	<div id="languagebar">English | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=no">Bokmål</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=nn">Nynorsk</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=se">Sámegiella</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=da">Dansk</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=de">Deutsch</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=sv">Svenska</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=fi">Suomeksi</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=es">Español</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=fr">Français</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=it">Italiano</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=nl">Nederlands</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=lb">Lëtzebuergesch</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=cs">Čeština</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=sl">Slovenščina</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=lt">Lietuvių kalba</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=hr">Hrvatski</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=hu">Magyar</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=pl">Język polski</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=pt">Português</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=pt-br">Português brasileiro</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=tr">Türkçe</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=ja">日本語</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=zh">简体中文</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=zh-tw">繁體中文</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=ru">русский язык</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=et">eesti keel</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=he">עִבְרִית</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=id">Bahasa Indonesia</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=sr">Srpski</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=lv">Latviešu</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=ro">Românește</a> | <a href="http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_364164568f250e52b96bae72e34a99a169cf17a499%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490794461%26RelayState%3Dss%253Amem%253A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34&amp;language=eu">Euskara</a></div>	<div id="content">
+
+
+
+
+    <h2 style="break: both">Enter your username and password</h2>
+
+    <p class="logintext">A service has requested you to authenticate yourself. Please enter your username and password in the form below.</p>
+
+    <form action="?" method="post" name="f">
+        <table>
+            <tr>
+                <td rowspan="2" id="loginicon">
+                    <img alt=""
+                        src="/simplesamlphp/www/resources/icons/experience/gtk-dialog-authentication.48x48.png" />
+                </td>
+                <td><label for="username">Username</label></td>
+                <td>
+                    <input id="username"                            type="text" name="username"
+tabindex="1" value=""/>
+                </td>
+                        </tr>
+                        <tr>
+                <td><label for="password">Password</label></td>
+                <td>
+                    <input id="password" type="password" tabindex="2" name="password"/>
+                </td>
+                        </tr>
+                                    <tr id="regularsubmit">
+                <td></td><td></td>
+                <td>
+                    <button class="btn"
+                            onclick="this.value='Processing...';
+                                this.disabled=true; this.form.submit(); return true;" tabindex="6">
+                        Login                    </button>
+                </td>
+            </tr>
+            <tr id="mobilesubmit">
+                <td></td><td></td>
+                <td>
+                    <button class="btn" tabindex="6">
+                        Login                    </button>
+                </td>
+            </tr>
+        </table>
+        <input type="hidden" name="AuthState" value="_364164568f250e52b96bae72e34a99a169cf17a499:http://10.7.49.47/simplesamlphp/www/saml2/idp/SSOService.php?spentityid=https%3A%2F%2F10.7.49.47%3A5000%2Fshibboleth&amp;cookieTime=1490794461&amp;RelayState=ss%3Amem%3A89ef4db178934aac7f40ac0b3f4624772c0dfe5163457c88836cbae371279b34" />    </form>
+<h2 class="logintext">Help! I don't remember my password.</h2><p class="logintext">Too bad! - Without your username and password you cannot authenticate yourself for access to the service. There may be someone that can help you. Consult the help desk at your organization!</p>	</div><!-- #content -->
+	<div id="footer">
+		<hr />
+
+		<img src="/simplesamlphp/www/resources/icons/ssplogo-fish-small.png" alt="Small fish logo" style="float: right" />		
+		Copyright &copy; 2007-2016 <a href="http://uninett.no/">UNINETT AS</a>
+		
+		<br style="clear: right" />
+	
+	</div><!-- #footer -->
+
+</div><!-- #wrap -->
+
+</body>
+</html>
+

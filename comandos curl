@@ -1,0 +1,16 @@
+curl -v -X POST -F username=developer -F password=developerpass http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_6134221942398579b1d81df056d4fb1a3a4d16da71%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490369443%26RelayState%3Dss%253Amem%253Aed549542dc16ada0c5fbb4c5453d5ca838a6ccbaa8251547c72030510b0fab8e
+
+
+curl -v -H "Content-Type: application/json" -X POST -d "{ \"username\": \"developer\",\"password\": \"developerpass\" }" http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_6134221942398579b1d81df056d4fb1a3a4d16da71%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490369443%26RelayState%3Dss%253Amem%253Aed549542dc16ada0c5fbb4c5453d5ca838a6ccbaa8251547c72030510b0fab8e
+
+
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://10.7.49.47:5000/v3/OS-FEDERATION/identity_providers/myidp/protocols/mapped/auth
+
+
+
+http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_23f88c5720ebf7017b96b2f427457e5604195eba04%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490388105
+
+curl -v -X POST -F 'username=developer' -F 'password=developerpass' http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_23f88c5720ebf7017b96b2f427457e5604195eba04%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490388105
+
+
+http://10.7.49.47/simplesamlphp/www/module.php/core/loginuserpass.php?AuthState=_bd0d8ac1ea91e2267ec06e1ec9112392e2ce6a01d4%3Ahttp%3A%2F%2F10.7.49.47%2Fsimplesamlphp%2Fwww%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252F10.7.49.47%253A5000%252Fshibboleth%26cookieTime%3D1490410849
