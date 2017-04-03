@@ -38,7 +38,7 @@ def get_idp(keystone_url, idp_id, protocol_id):
     else:
         print('ERROR (GET IDP): ' + response.text)
 
-def submit_form_mechanize(response):
+def submit_form(response):
     browser = Browser()
     browser.set_handle_robots(False)
     browser.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
@@ -54,15 +54,7 @@ def submit_form_mechanize(response):
     browser.select_form(nr = 0)
     browser.submit() 
 
-    return browser
-
-def submit_form_request(response): 
-    name = "developer"
-    password = "developerpass" 
-
-    payload = {'username': name, 'password': password}
-    r = requests.post(response.url, payload, cookies=response.cookies)   
-    return r 
+    return browser 
 
 def get_projects(token):
     headers = {'X-Auth-token': token}
@@ -81,6 +73,6 @@ def dump(obj):
 if __name__ == "__main__":
     r = get_idp("http://10.7.49.47:5000", 'myidp', 'mapped')  
     # import pdb; pdb.set_trace()
-    r = submit_form_mechanize(r) 
+    r = submit_form(r) 
     print r.response().read()
 
