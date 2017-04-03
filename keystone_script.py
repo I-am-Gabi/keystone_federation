@@ -10,7 +10,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 import ssl
-
+# https://dnaeon.github.io/disable-python-ssl-verification/
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
@@ -47,13 +47,12 @@ def submit_form_mechanize(response):
     browser.select_form(nr = 0)
     browser.form['username'] = USERNAME
     browser.form['password'] = PASSWORD
-    browser.submit()
+    browser.submit() 
 
     url_principal = browser.geturl()
     browser.open(url_principal)
     browser.select_form(nr = 0)
-    browser.submit()
-    print browser.response().read()
+    browser.submit() 
 
     return browser
 
@@ -62,14 +61,12 @@ def submit_form_request(response):
     password = "developerpass" 
 
     payload = {'username': name, 'password': password}
-    r = requests.post(response.url, payload, cookies=response.cookies) 
-    r = requests.post('http://10.7.49.47/Shibboleth.sso/SAML2/POST', cookies=r.cookies) 
-    print r.text()
+    r = requests.post(response.url, payload, cookies=response.cookies)   
     return r 
 
 def get_projects(token):
     headers = {'X-Auth-token': token}
-    url = "https://10.7.49.47:5000/v3/OS-FEDERATION/projects"
+    url = "http://10.7.49.47:5000/v3/OS-FEDERATION/projects"
     response = requests.get(url=url, verify=False, headers=headers)
     if response.status_code in (201, 200):
         logging.debug(" ### URL ### : " + response.url)
@@ -82,7 +79,8 @@ def dump(obj):
     print "obj.%s = %s" % (attr, getattr(obj, attr))
 
 if __name__ == "__main__":
-    r = get_idp("https://10.7.49.47:5000", 'myidp', 'mapped')  
+    r = get_idp("http://10.7.49.47:5000", 'myidp', 'mapped')  
     # import pdb; pdb.set_trace()
     r = submit_form_mechanize(r) 
+    print r.response().read()
 
