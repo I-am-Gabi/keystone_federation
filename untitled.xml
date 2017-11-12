@@ -1,0 +1,32 @@
+<saml:AuthnStatement AuthnInstant="2017-04-06T16:58:36Z" SessionNotOnOrAfter="2017-04-07T00:58:36Z" SessionIndex="_7371f1e88e2dc8ec26119dde4bf7a598fbc00c3cd8">
+	<saml:AuthnContext>
+		<saml:AuthnContextClassRef>
+			urn:oasis:names:tc:SAML:2.0:ac:classes:Password
+		</saml:AuthnContextClassRef>
+	</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml:AttributeStatement>
+	<saml:Attribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+		<saml:AttributeValue xsi:type="xs:string">
+			developer
+		</saml:AttributeValue>
+	</saml:Attribute>
+	<saml:Attribute Name="mail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+		<saml:AttributeValue xsi:type="xs:string">
+			developer@email.com
+		</saml:AttributeValue>
+	</saml:Attribute>
+	<saml:Attribute Name="givenName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+		<saml:AttributeValue xsi:type="xs:string">
+			Gabriela
+		</saml:AttributeValue>
+	</saml:Attribute>
+	<saml:Attribute Name="eduPersonAffiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+		<saml:AttributeValue xsi:type="xs:string">
+			member
+		</saml:AttributeValue>
+		<saml:AttributeValue xsi:type="xs:string">
+			student
+		</saml:AttributeValue>
+	</saml:Attribute>
+</saml:AttributeStatement></saml:Assertion></samlp:Response>

@@ -1,0 +1,30 @@
+$ openstack federation protocol delete --identity-provider myidp mapped
+
+$ openstack mapping delete myidp_mapping
+
+$ openstack mapping create --rules rules.json myidp_mapping
+
+$ openstack federation protocol create mapped --mapping myidp_mapping --identity-provider myidp
+
+[
+    {
+        "local": [
+            {
+                "user": {
+                    "name": "{0}"
+                },
+                "group": {
+                    "domain": {
+                        "id": "2ad429b2bac041b9b1142dd371ff95e7"
+                    },
+                    "name": "federated_users"
+                }
+            }
+        ],
+        "remote": [
+            {
+                "type": "REMOTE_USER"
+            }
+        ]
+    }
+]

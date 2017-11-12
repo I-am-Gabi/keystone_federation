@@ -21,7 +21,6 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 
-
 logging.basicConfig(filename='logs/federation.log', level=logging.DEBUG)
 
 USERNAME = "developer"
@@ -52,6 +51,7 @@ def submit_form(response):
     url_principal = browser.geturl()
     browser.open(url_principal)
     browser.select_form(nr = 0)
+    print browser.response().read()
     browser.submit() 
 
     return browser 
@@ -64,7 +64,7 @@ def get_projects(token):
         logging.debug(" ### URL ### : " + response.url)
         return response
     else:
-        logging.warning('GET PROJECTS ### ' + response.text)
+        logging.warning('ERROR (GET PROJECTS): ' + response.text)
 
 def dump(obj):
   for attr in dir(obj):

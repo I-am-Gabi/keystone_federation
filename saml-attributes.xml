@@ -1,0 +1,19 @@
+<saml:Attribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+	<saml:AttributeValue xsi:type="xs:string">
+		developer
+	</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="mail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+	<saml:AttributeValue xsi:type="xs:string">
+		developer@email.com
+	</saml:AttributeValue>
+</saml:Attribute>
+<saml:Attribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+	<saml:AttributeValue xsi:type="xs:string">
+		Developer
+	</saml:AttributeValue>
+</saml:Attribute> 
+
+Format:urn:oasis:names:tc:SAML:2.0:attrname-format:basic
+
+skipping unmapped SAML 2.0 Attribute with Name: mail, Format:urn:oasis:names:tc:SAML:2.0:attrname-format:basic
